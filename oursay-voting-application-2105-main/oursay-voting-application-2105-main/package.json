@@ -1,0 +1,13 @@
+{
+  "name": "OurSay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm i --f && npm run start",
+	"heroku-postbuild": "cd client && npm i --f && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
